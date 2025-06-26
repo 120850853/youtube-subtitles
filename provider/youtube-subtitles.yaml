@@ -1,0 +1,17 @@
+identity:
+  author: liu
+  name: youtube-subtitles
+  label:
+    en_US: youtube-subtitles
+    zh_Hans: youtube-subtitles
+    pt_BR: youtube-subtitles
+  description:
+    en_US: get subtitles from youtube
+    zh_Hans: get subtitles from youtube
+    pt_BR: get subtitles from youtube
+  icon: icon.svg
+tools:
+  - tools/youtube-subtitles.yaml
+extra:
+  python:
+    source: provider/youtube-subtitles.py

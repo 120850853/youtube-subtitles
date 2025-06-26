@@ -1,0 +1,30 @@
+identity:
+  name: youtube-subtitles
+  author: liu
+  label:
+    en_US: youtube-subtitles
+    zh_Hans: youtube-subtitles
+    pt_BR: youtube-subtitles
+description:
+  human:
+    en_US: get subtitles from youtube
+    zh_Hans: get subtitles from youtube
+    pt_BR: get subtitles from youtube
+  llm: get subtitles from youtube
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: get subtitles from youtube
+      zh_Hans: get subtitles from youtube
+      pt_BR: get subtitles from youtube
+    llm_description: get subtitles from youtube
+    form: llm
+extra:
+  python:
+    source: tools/youtube-subtitles.py
