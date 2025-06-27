@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: 120850853
+author: "120850853"
 name: youtube-subtitles
 label:
   en_US: youtube-subtitles
